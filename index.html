@@ -1,0 +1,140 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Component Catalogue Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #searchBox {
+      width: 350px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    #searchBtn {
+      padding: 8px 12px;
+      font-size: 16px;
+      margin-left: 4px;
+    }
+    #resultsTable {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    #resultsTable th, #resultsTable td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    #resultsTable th {
+      background-color: #f4f4f4;
+      text-align: left;
+    }
+    #noResults {
+      margin-top: 20px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Component Catalogue Search</h1>
+
+  <input id="searchBox" type="text" placeholder="Enter part number, type, location..." />
+  <button id="searchBtn">Search</button>
+
+  <div id="noResults" style="display: none;">No results found.</div>
+  <table id="resultsTable" style="display: none;">
+    <thead>
+      <tr>
+        <th>Part Number</th>
+        <th>Manufacturer #</th>
+        <th>Location</th>
+        <th>Count</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody id="resultsBody">
+      <!-- JavaScript will inject rows here -->
+    </tbody>
+  </table>
+
+  <script>
+    // 1) Grab references to DOM elements
+    const searchBox = document.getElementById("searchBox");
+    const searchBtn = document.getElementById("searchBtn");
+    const resultsTable = document.getElementById("resultsTable");
+    const resultsBody = document.getElementById("resultsBody");
+    const noResultsDiv = document.getElementById("noResults");
+
+    // 2) This function runs when you click “Search” or press Enter.
+    async function doSearch() {
+      const query = searchBox.value.trim().toLowerCase();
+      // Hide previous results
+      resultsBody.innerHTML = "";
+      resultsTable.style.display = "none";
+      noResultsDiv.style.display = "none";
+
+      if (!query) {
+        // If search box is empty, do nothing (or show no results)
+        return;
+      }
+
+      try {
+        // 3) Fetch the JSON file (catalogue.json must coexist in the same repo)
+        const resp = await fetch("catalogue.json", { cache: "no-cache" });
+        if (!resp.ok) {
+          console.error("Failed to fetch catalogue.json:", resp.status);
+          return;
+        }
+        const allComponents = await resp.json();
+
+        // 4) Filter (substring match on any part_info field)
+        const matches = allComponents.filter(comp => {
+          const info = comp.part_info || {};
+          for (let key in info) {
+            if (String(info[key]).toLowerCase().includes(query)) {
+              return true;
+            }
+          }
+          return false;
+        });
+
+        // 5) If no matches, show “No results”
+        if (matches.length === 0) {
+          noResultsDiv.style.display = "block";
+          return;
+        }
+
+        // 6) Otherwise, build table rows
+        matches.forEach(comp => {
+          const p = comp.part_info || {};
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${p.part_number || ""}</td>
+            <td>${p.manufacturer_number || ""}</td>
+            <td>${p.location || ""}</td>
+            <td>${p.count}</td>
+            <td>${p.type || ""}</td>
+          `;
+          resultsBody.appendChild(row);
+        });
+        resultsTable.style.display = "table";
+      } catch (err) {
+        console.error("Error during search:", err);
+      }
+    }
+
+    // 7) Wire up events: click + “Enter” key
+    searchBtn.addEventListener("click", doSearch);
+    searchBox.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        doSearch();
+      }
+    });
+  </script>
+</body>
+</html>
