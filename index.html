@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,8 +95,8 @@
 
   <script>
     // --- DOM references ---
-    const searchBox   = document.getElementById("searchBox");
-    const searchBtn   = document.getElementById("searchBtn");
+    const searchBox    = document.getElementById("searchBox");
+    const searchBtn    = document.getElementById("searchBtn");
     const resultsTable = document.getElementById("resultsTable");
     const resultsBody  = document.getElementById("resultsBody");
     const noResultsDiv = document.getElementById("noResults");
@@ -122,10 +121,11 @@
         }
         const allComponents = await resp.json();
 
-        // Filter by substring on any part_info field
+        // Filter by substring on any field under part_info or metadata
         const matches = allComponents.filter(comp => {
           const info = comp.part_info || {};
-          return Object.values(info).some(val =>
+          const meta = comp.metadata  || {};
+          return Object.values(info).concat(Object.values(meta)).some(val =>
             String(val).toLowerCase().includes(query)
           );
         });
@@ -137,16 +137,17 @@
 
         // Build table rows
         matches.forEach(comp => {
-          const p = comp.part_info || {};
+          const p  = comp.part_info || {};
+          const m  = comp.metadata  || {};
           const tr = document.createElement("tr");
 
-          // 1) Part Number cell as <a> (opens new tab to DigiKey link)
+          // 1) Part Number cell as <a> (opens new tab to DigiKey link from metadata.product_url)
           const tdPart = document.createElement("td");
-          if (p.product_url) {
+          if (m.product_url) {
             const a = document.createElement("a");
-            a.href = p.product_url;
+            a.href   = m.product_url;
             a.target = "_blank";
-            a.rel = "noopener";
+            a.rel    = "noopener";
             a.textContent = p.part_number || "";
             tdPart.appendChild(a);
           } else {
@@ -154,7 +155,7 @@
           }
           tr.appendChild(tdPart);
 
-          // 2) Manufacturer # 
+          // 2) Manufacturer #
           const tdMfg = document.createElement("td");
           tdMfg.textContent = p.manufacturer_number || "";
           tr.appendChild(tdMfg);
@@ -175,9 +176,9 @@
           tr.appendChild(tdType);
 
           // Attach hover listeners for tooltip
-          tr.addEventListener("mouseenter", (evt) => showTooltip(evt, p));
-          tr.addEventListener("mousemove", (evt) => moveTooltip(evt));
-          tr.addEventListener("mouseleave", () => hideTooltip());
+          tr.addEventListener("mouseenter", (evt) => showTooltip(evt, p, m));
+          tr.addEventListener("mousemove",  (evt) => moveTooltip(evt));
+          tr.addEventListener("mouseleave", ()    => hideTooltip());
 
           resultsBody.appendChild(tr);
         });
@@ -189,24 +190,34 @@
     }
 
     // --- Tooltip helper functions ---
-    function showTooltip(evt, partInfo) {
+    function showTooltip(evt, partInfo, metaInfo) {
       // Build the HTML inside tooltip
       tooltip.innerHTML = ""; 
+
       // Title (Part Number) at top
       const title = document.createElement("h4");
       title.textContent = partInfo.part_number || "Details";
       tooltip.appendChild(title);
 
-      // Loop over each key/value in partInfo
+      // 1) Part Info fields
       Object.entries(partInfo).forEach(([key, val]) => {
-        // Skip product_url since users click the part number instead
-        if (key === "product_url") return;
+        const prettyKey = key.replace(/_/g, " ").replace(/\b\w/g, ch => ch.toUpperCase());
         const div = document.createElement("div");
-        // Capitalize the key and replace underscores
-        const prettyKey = key
-          .replace(/_/g, " ")
-          .replace(/\b\w/g, ch => ch.toUpperCase());
         div.innerHTML = `<strong>${prettyKey}:</strong> ${val}`;
+        tooltip.appendChild(div);
+      });
+
+      // 2) Metadata fields (skip product_url since that's the link)
+      Object.entries(metaInfo).forEach(([key, val]) => {
+        if (key === "product_url") return;
+        const prettyKey = key.replace(/_/g, " ").replace(/\b\w/g, ch => ch.toUpperCase());
+        // If this metadata value is a URL (datasheet_url, photo_url), make it clickable
+        let displayVal = val;
+        if (typeof val === "string" && (val.startsWith("http://") || val.startsWith("https://"))) {
+          displayVal = `<a href="${val}" target="_blank" rel="noopener" style="color:#aaffff;">Link</a>`;
+        }
+        const div = document.createElement("div");
+        div.innerHTML = `<strong>${prettyKey}:</strong> ${displayVal}`;
         tooltip.appendChild(div);
       });
 
@@ -216,9 +227,9 @@
 
     function moveTooltip(evt) {
       const padding = 12; // small gap from cursor
-      const ttWidth = tooltip.offsetWidth;
+      const ttWidth  = tooltip.offsetWidth;
       const ttHeight = tooltip.offsetHeight;
-      const pageWidth = document.documentElement.clientWidth;
+      const pageWidth  = document.documentElement.clientWidth;
       const pageHeight = document.documentElement.clientHeight;
       let x = evt.pageX + padding;
       let y = evt.pageY + padding;
