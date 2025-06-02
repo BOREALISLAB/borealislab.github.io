@@ -115,7 +115,7 @@
 
       try {
         // Force fresh fetch so browser doesn't cache an older JSON
-        const resp = await fetch("catalogue.json", { cache: "no-cache" });
+        const resp = await fetch("component_catalogue.json", { cache: "no-cache" });
         if (!resp.ok) {
           console.error("Failed to fetch catalogue.json:", resp.status);
           return;
