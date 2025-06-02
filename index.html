@@ -19,6 +19,7 @@
       font-size: 16px;
       margin-left: 4px;
     }
+
     #resultsTable {
       margin-top: 20px;
       border-collapse: collapse;
@@ -31,6 +32,35 @@
     #resultsTable th {
       background-color: #f4f4f4;
       text-align: left;
+    }
+    #resultsBody tr:hover {
+      background-color: #f9f9f9;
+      cursor: pointer;
+    }
+
+    /* Tooltip styling */
+    #tooltip {
+      position: absolute;
+      z-index: 1000;
+      background-color: rgba(60, 60, 60, 0.95);
+      color: #fff;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 14px;
+      line-height: 1.4;
+      max-width: 300px;
+      pointer-events: none;
+      display: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    #tooltip h4 {
+      margin: 0 0 4px 0;
+      font-size: 15px;
+      border-bottom: 1px solid #777;
+      padding-bottom: 2px;
+    }
+    #tooltip div {
+      margin-bottom: 3px;
     }
     #noResults {
       margin-top: 20px;
@@ -61,73 +91,155 @@
     </tbody>
   </table>
 
-  <script>
-    // 1) Grab references to DOM elements
-    const searchBox = document.getElementById("searchBox");
-    const searchBtn = document.getElementById("searchBtn");
-    const resultsTable = document.getElementById("resultsTable");
-    const resultsBody = document.getElementById("resultsBody");
-    const noResultsDiv = document.getElementById("noResults");
+  <!-- Tooltip container -->
+  <div id="tooltip"></div>
 
-    // 2) This function runs when you click “Search” or press Enter.
+  <script>
+    // --- DOM references ---
+    const searchBox   = document.getElementById("searchBox");
+    const searchBtn   = document.getElementById("searchBtn");
+    const resultsTable = document.getElementById("resultsTable");
+    const resultsBody  = document.getElementById("resultsBody");
+    const noResultsDiv = document.getElementById("noResults");
+    const tooltip      = document.getElementById("tooltip");
+
+    // --- Main search function ---
     async function doSearch() {
       const query = searchBox.value.trim().toLowerCase();
-      // Hide previous results
+      // Clear previous results
       resultsBody.innerHTML = "";
       resultsTable.style.display = "none";
       noResultsDiv.style.display = "none";
 
-      if (!query) {
-        // If search box is empty, do nothing (or show no results)
-        return;
-      }
+      if (!query) return;  // Do nothing if search is empty
 
       try {
-        // 3) Fetch the JSON file (catalogue.json must coexist in the same repo)
-        const resp = await fetch("component_catalogue.json", { cache: "no-cache" });
+        // Force fresh fetch so browser doesn't cache an older JSON
+        const resp = await fetch("catalogue.json", { cache: "no-cache" });
         if (!resp.ok) {
           console.error("Failed to fetch catalogue.json:", resp.status);
           return;
         }
         const allComponents = await resp.json();
 
-        // 4) Filter (substring match on any part_info field)
+        // Filter by substring on any part_info field
         const matches = allComponents.filter(comp => {
           const info = comp.part_info || {};
-          for (let key in info) {
-            if (String(info[key]).toLowerCase().includes(query)) {
-              return true;
-            }
-          }
-          return false;
+          return Object.values(info).some(val =>
+            String(val).toLowerCase().includes(query)
+          );
         });
 
-        // 5) If no matches, show “No results”
         if (matches.length === 0) {
           noResultsDiv.style.display = "block";
           return;
         }
 
-        // 6) Otherwise, build table rows
+        // Build table rows
         matches.forEach(comp => {
           const p = comp.part_info || {};
-          const row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${p.part_number || ""}</td>
-            <td>${p.manufacturer_number || ""}</td>
-            <td>${p.location || ""}</td>
-            <td>${p.count}</td>
-            <td>${p.type || ""}</td>
-          `;
-          resultsBody.appendChild(row);
+          const tr = document.createElement("tr");
+
+          // 1) Part Number cell as <a> (opens new tab to DigiKey link)
+          const tdPart = document.createElement("td");
+          if (p.product_url) {
+            const a = document.createElement("a");
+            a.href = p.product_url;
+            a.target = "_blank";
+            a.rel = "noopener";
+            a.textContent = p.part_number || "";
+            tdPart.appendChild(a);
+          } else {
+            tdPart.textContent = p.part_number || "";
+          }
+          tr.appendChild(tdPart);
+
+          // 2) Manufacturer # 
+          const tdMfg = document.createElement("td");
+          tdMfg.textContent = p.manufacturer_number || "";
+          tr.appendChild(tdMfg);
+
+          // 3) Location
+          const tdLoc = document.createElement("td");
+          tdLoc.textContent = p.location || "";
+          tr.appendChild(tdLoc);
+
+          // 4) Count
+          const tdCnt = document.createElement("td");
+          tdCnt.textContent = p.count;
+          tr.appendChild(tdCnt);
+
+          // 5) Type
+          const tdType = document.createElement("td");
+          tdType.textContent = p.type || "";
+          tr.appendChild(tdType);
+
+          // Attach hover listeners for tooltip
+          tr.addEventListener("mouseenter", (evt) => showTooltip(evt, p));
+          tr.addEventListener("mousemove", (evt) => moveTooltip(evt));
+          tr.addEventListener("mouseleave", () => hideTooltip());
+
+          resultsBody.appendChild(tr);
         });
+
         resultsTable.style.display = "table";
       } catch (err) {
         console.error("Error during search:", err);
       }
     }
 
-    // 7) Wire up events: click + “Enter” key
+    // --- Tooltip helper functions ---
+    function showTooltip(evt, partInfo) {
+      // Build the HTML inside tooltip
+      tooltip.innerHTML = ""; 
+      // Title (Part Number) at top
+      const title = document.createElement("h4");
+      title.textContent = partInfo.part_number || "Details";
+      tooltip.appendChild(title);
+
+      // Loop over each key/value in partInfo
+      Object.entries(partInfo).forEach(([key, val]) => {
+        // Skip product_url since users click the part number instead
+        if (key === "product_url") return;
+        const div = document.createElement("div");
+        // Capitalize the key and replace underscores
+        const prettyKey = key
+          .replace(/_/g, " ")
+          .replace(/\b\w/g, ch => ch.toUpperCase());
+        div.innerHTML = `<strong>${prettyKey}:</strong> ${val}`;
+        tooltip.appendChild(div);
+      });
+
+      tooltip.style.display = "block";
+      moveTooltip(evt);
+    }
+
+    function moveTooltip(evt) {
+      const padding = 12; // small gap from cursor
+      const ttWidth = tooltip.offsetWidth;
+      const ttHeight = tooltip.offsetHeight;
+      const pageWidth = document.documentElement.clientWidth;
+      const pageHeight = document.documentElement.clientHeight;
+      let x = evt.pageX + padding;
+      let y = evt.pageY + padding;
+
+      // If tooltip would overflow right edge, shift left
+      if (x + ttWidth + padding > pageWidth) {
+        x = evt.pageX - ttWidth - padding;
+      }
+      // If tooltip would overflow bottom edge, shift up
+      if (y + ttHeight + padding > pageHeight) {
+        y = evt.pageY - ttHeight - padding;
+      }
+      tooltip.style.left = x + "px";
+      tooltip.style.top  = y + "px";
+    }
+
+    function hideTooltip() {
+      tooltip.style.display = "none";
+    }
+
+    // --- Event bindings ---
     searchBtn.addEventListener("click", doSearch);
     searchBox.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
