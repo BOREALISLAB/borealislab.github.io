@@ -84,7 +84,7 @@
 
       try {
         // 3) Fetch the JSON file (catalogue.json must coexist in the same repo)
-        const resp = await fetch("catalogue.json", { cache: "no-cache" });
+        const resp = await fetch("component_catalogue.json", { cache: "no-cache" });
         if (!resp.ok) {
           console.error("Failed to fetch catalogue.json:", resp.status);
           return;
