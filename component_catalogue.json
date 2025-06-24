@@ -1,55 +1,55 @@
 [
     {
         "part_info": {
-            "part_number": "490-11723-2-ND",
-            "manufacturer_number": "LQP03TN27NH02D",
-            "location": "Bin1",
-            "count": 100,
-            "type": "Inductors, Coils, Chokes"
+            "part_number": "MCP6241UT-E/LTTR-ND",
+            "manufacturer_number": "MCP6241UT-E/LT",
+            "location": "2Y",
+            "count": "25",
+            "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
-            "price": "0.1",
-            "low_stock": "10",
-            "description": "FIXED IND 27NH 140MA 2.3 OHM SMD",
-            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/840/LQP03TN-0201-%280603-Metric%29.jpg",
-            "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243C-0015.pdf",
-            "product_url": "https://www.digikey.com/en/products/detail/murata-electronics/LQP03TN27NH02D/2391760",
+            "price": 0.39,
+            "low_stock": 5,
+            "description": "IC OPAMP GP 1 CIRCUIT SC70-5",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4817/150%7EC04-061%7ELT%2CLTY%7E5.JPG",
+            "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/21882d.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/microchip-technology/MCP6241UT-E-LT/716048",
             "in_use": "Available"
         }
     },
     {
         "part_info": {
-            "part_number": "490-11330-2-ND",
-            "manufacturer_number": "GRM0335C1H3R9BA01D",
-            "location": "2W",
-            "count": 1000,
-            "type": "Capacitors"
-        },
-        "metadata": {
-            "price": "0.1",
-            "low_stock": "10",
-            "description": "CAP CER 3.9PF 50V C0G/NP0 0201",
-            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5447/490-Ceramic-Capacitor-Tan-Field.jpg",
-            "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H3R9BA01-01.pdf",
-            "product_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM0335C1H3R9BA01D/4358738",
-            "in_use": "Available"
-        }
-    },
-    {
-        "part_info": {
-            "part_number": "311-1354-2-ND",
-            "manufacturer_number": "CC0402CRNPO9BN2R2",
-            "location": "2V",
-            "count": 54,
-            "type": "Capacitors"
+            "part_number": "541-6.80MCTR-ND",
+            "manufacturer_number": "CRCW08056M80FKEA",
+            "location": "2X",
+            "count": 999,
+            "type": "Resistors"
         },
         "metadata": {
             "price": 0.1,
-            "low_stock": "10",
-            "description": "CAP CER 2.2PF 50V C0G/NPO 0402",
-            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2392/0402%280%5E50%20thickness%29.jpg",
-            "datasheet_url": "https://www.yageo.com/en/Chart/Download/pdf/CC0402CRNPO9BN2R2",
-            "product_url": "https://www.digikey.com/en/products/detail/yageo/CC0402CRNPO9BN2R2/2103092",
+            "low_stock": 100,
+            "description": "RES SMD 6.8M OHM 1% 1/8W 0805",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4849/541_CRCW-0805-%282125metric%29.jpg",
+            "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08056M80FKEA/1176111",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "1965-ESP32-C3-WROOM-02-H4CT-ND",
+            "manufacturer_number": "ESP32-C3-WROOM-02-H4",
+            "location": "Bin1",
+            "count": 8,
+            "type": "RF and Wireless"
+        },
+        "metadata": {
+            "price": "3.51",
+            "low_stock": "5",
+            "description": "RF TXRX MOD BT WIFI PCB TH SMD",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6348/ESP32-C3-WROOM-02-H4.jpg",
+            "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-H4/14553033",
             "in_use": "Available"
         }
     },
@@ -57,13 +57,13 @@
         "part_info": {
             "part_number": "455-2266-ND",
             "manufacturer_number": "XHP-2",
-            "location": "2U",
-            "count": 20,
+            "location": "2W",
+            "count": 15,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
             "price": 0.1,
-            "low_stock": "0",
+            "low_stock": "5",
             "description": "CONN RCPT HSG 2POS 2.50MM",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1128/XHP-2.jpg",
             "datasheet_url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
@@ -73,19 +73,73 @@
     },
     {
         "part_info": {
-            "part_number": "A126366TR-ND",
-            "manufacturer_number": "CRG0805F39K",
-            "location": "2S",
-            "count": 100,
-            "type": "Resistors"
+            "part_number": "490-11330-2-ND",
+            "manufacturer_number": "GRM0335C1H3R9BA01D",
+            "location": "2U",
+            "count": 1000,
+            "type": "Capacitors"
         },
         "metadata": {
             "price": 0.1,
-            "low_stock": "50",
+            "low_stock": "100",
+            "description": "CAP CER 3.9PF 50V C0G/NP0 0201",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5447/490-Ceramic-Capacitor-Tan-Field.jpg",
+            "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H3R9BA01-01.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM0335C1H3R9BA01D/4358738",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "A126366TR-ND",
+            "manufacturer_number": "CRG0805F39K",
+            "location": "2V",
+            "count": 1000,
+            "type": "Resistors"
+        },
+        "metadata": {
+            "price": "0.1",
+            "low_stock": "100",
             "description": "RES SMD 39K OHM 1% 1/8W 0805",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2453/CRG%2C%20Neohm%200805%20%282012%20Metric%29.jpg",
             "datasheet_url": "https://www.te.com/usa-en/product-1623209-1.datasheet.pdf",
             "product_url": "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F39K/2380898",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "399-C0805C102J5GACTUTR-ND",
+            "manufacturer_number": "C0805C102J5GACTU",
+            "location": "2S",
+            "count": 1000,
+            "type": "Capacitors"
+        },
+        "metadata": {
+            "price": 0.08,
+            "low_stock": 100,
+            "description": "CAP CER 1000PF 50V C0G/NP0 0805",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/423/0805-%282012-Metric%29-2%2C00x1%2C20x1%2C00mm.jpg",
+            "datasheet_url": "https://search.kemet.com/download/datasheet/C0805C102J5GAC7800",
+            "product_url": "https://www.digikey.com/en/products/detail/kemet/C0805C102J5GACTU/411135",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "CKN10504CT-ND",
+            "manufacturer_number": "PTS810SJG250SMTR LFS",
+            "location": "1Z",
+            "count": 95,
+            "type": "Switches"
+        },
+        "metadata": {
+            "price": "0.55",
+            "low_stock": "10",
+            "description": "SWITCH TACTILE SPST-NO 0.05A 16V",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/516/MFG_PTS810.jpg",
+            "datasheet_url": "https://www.ckswitches.com/media/1476/pts810.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/c-k/PTS810SJG250SMTR-LFS/4176612",
             "in_use": "Available"
         }
     },
@@ -112,7 +166,7 @@
             "part_number": "SX1276IMLTRTTR-ND",
             "manufacturer_number": "SX1276IMLTRT",
             "location": "2Q",
-            "count": "10",
+            "count": 9,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -130,7 +184,7 @@
             "part_number": "ACX1230-ND",
             "manufacturer_number": "132134",
             "location": "2L",
-            "count": "10",
+            "count": 6,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -166,7 +220,7 @@
             "part_number": "223-1198-2-ND",
             "manufacturer_number": "MS560702BA03-50",
             "location": "1R",
-            "count": 15,
+            "count": 14,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -202,7 +256,7 @@
             "part_number": "672-NEO-M9V-20BTR-ND",
             "manufacturer_number": "NEO-M9V-20B",
             "location": "2N",
-            "count": 1,
+            "count": 0,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -238,7 +292,7 @@
             "part_number": "497-16527-2-ND",
             "manufacturer_number": "LSM303AGRTR",
             "location": "2O",
-            "count": 4,
+            "count": 3,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -256,7 +310,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 1013,
+            "count": 1011,
             "type": "Capacitors"
         },
         "metadata": {
@@ -274,7 +328,7 @@
             "part_number": "664-GTFP08432B1HRTR-ND",
             "manufacturer_number": "GTFP08432B1HR",
             "location": "2J",
-            "count": 16,
+            "count": 15,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -292,11 +346,11 @@
             "part_number": "RFM95W-868S2-ND",
             "manufacturer_number": "RFM95W-868S2",
             "location": "Bin 1",
-            "count": 3,
+            "count": 0,
             "type": "RF and Wireless"
         },
         "metadata": {
-            "price": 0.0,
+            "price": "0.0",
             "low_stock": "0",
             "description": "RF TXRX MOD ISM<1GHZSMD",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1774/MFG_RFM95W-868S2.jpg",
@@ -418,7 +472,7 @@
             "part_number": "609-5379-2-ND",
             "manufacturer_number": "10118192-0002LF",
             "location": "2E",
-            "count": 46,
+            "count": 45,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -436,7 +490,7 @@
             "part_number": "1016-1873-2-ND",
             "manufacturer_number": "SPX3819M5-L-3-3/TR",
             "location": "2D",
-            "count": 113,
+            "count": 112,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -472,7 +526,7 @@
             "part_number": "553-2582-2-ND",
             "manufacturer_number": "W3011",
             "location": "2B",
-            "count": 10,
+            "count": 6,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -500,24 +554,6 @@
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5870/MFG_BMP390.jpg",
             "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf",
             "product_url": "https://www.digikey.com/en/products/detail/bosch-sensortec/BMP390/16164575",
-            "in_use": "Available"
-        }
-    },
-    {
-        "part_info": {
-            "part_number": "CKN10504TR-ND",
-            "manufacturer_number": "PTS810SJG250SMTR LFS",
-            "location": "1Z",
-            "count": 7,
-            "type": "Switches"
-        },
-        "metadata": {
-            "price": 0.55,
-            "low_stock": "10",
-            "description": "SWITCH TACTILE SPST-NO 0.05A 16V",
-            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/516/MFG_PTS810.jpg",
-            "datasheet_url": "https://www.ckswitches.com/media/1476/pts810.pdf",
-            "product_url": "https://www.digikey.com/en/products/detail/c-k/PTS810SJG250SMTR-LFS/4176612",
             "in_use": "Available"
         }
     },
@@ -580,7 +616,7 @@
             "part_number": "2195-CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QCTR-ND",
             "manufacturer_number": "CM8V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC",
             "location": "1V",
-            "count": 8,
+            "count": 7,
             "type": "Crystals, Oscillators, Resonators"
         },
         "metadata": {
@@ -868,7 +904,7 @@
             "part_number": "490-3335-1-ND",
             "manufacturer_number": "GRM21BR61E475KA12L",
             "location": "1E",
-            "count": 7,
+            "count": 907,
             "type": "Capacitors"
         },
         "metadata": {
