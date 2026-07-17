@@ -778,7 +778,7 @@
             "part_number": "1965-ESP32-C6-WROOM-1-N4TR-ND",
             "manufacturer_number": "ESP32-C6-WROOM-1-N4",
             "location": "Bin 4",
-            "count": 9,
+            "count": 8,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1138,7 +1138,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 16,
+            "count": 14,
             "type": "Switches"
         },
         "metadata": {
@@ -1300,7 +1300,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 870,
+            "count": 868,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1804,7 +1804,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1824,
+            "count": 1822,
             "type": "Resistors"
         },
         "metadata": {
@@ -2002,7 +2002,7 @@
             "part_number": "497-19784-2-ND",
             "manufacturer_number": "ISM330DHCXTR",
             "location": "Bin 3",
-            "count": 3,
+            "count": 2,
             "type": "Sensors, Transducers"
         },
         "metadata": {
