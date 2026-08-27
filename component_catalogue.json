@@ -1,6 +1,42 @@
 [
     {
         "part_info": {
+            "part_number": "145-LP2-115-6MM-ND",
+            "manufacturer_number": "LP2-115-6MM",
+            "location": "3O",
+            "count": 100,
+            "type": "Optoelectronics"
+        },
+        "metadata": {
+            "price": 0.61,
+            "low_stock": 5,
+            "description": "PC LIGHT PIPE 0.115 DIA X 6MM L",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7583/MFG_LP2.jpg",
+            "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7547/LED-LIGHT-PIPES-Datasheet.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/essentra-components/LP2-115-6MM/27792438",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "450-1657-ND",
+            "manufacturer_number": "1825027-8",
+            "location": "Bin 9",
+            "count": 250,
+            "type": "Switches"
+        },
+        "metadata": {
+            "price": "0.19",
+            "low_stock": 25,
+            "description": "SWITCH TACTILE SPST-NO 0.05A 24V",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4848/1208_FSMRA3JH.jpg",
+            "datasheet_url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English",
+            "product_url": "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825027-8/1632543",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
             "part_number": "490-8354-2-ND",
             "manufacturer_number": "GRM32EC81A476KE19L",
             "location": "3N",
@@ -364,7 +400,7 @@
             "part_number": "490-GRM21BR60G107ME11KTR-ND",
             "manufacturer_number": "GRM21BR60G107ME11K",
             "location": "Bin 2",
-            "count": 2,
+            "count": 1,
             "type": "Capacitors"
         },
         "metadata": {
@@ -526,7 +562,7 @@
             "part_number": "478-KGM21BCG1H2R2CTTR-ND",
             "manufacturer_number": "KGM21BCG1H2R2CT",
             "location": "3M",
-            "count": 488,
+            "count": 486,
             "type": "Capacitors"
         },
         "metadata": {
@@ -724,7 +760,7 @@
             "part_number": "141-TL3301NF160QG-KRTR-ND",
             "manufacturer_number": "TL3301NF160QG-KR",
             "location": "3J",
-            "count": 91,
+            "count": 90,
             "type": "Switches"
         },
         "metadata": {
@@ -742,7 +778,7 @@
             "part_number": "535-11898-2-ND",
             "manufacturer_number": "ABS07-32.768KHZ-6-T",
             "location": "3I",
-            "count": 44,
+            "count": 42,
             "type": "Crystals, Oscillators, Resonators"
         },
         "metadata": {
@@ -760,7 +796,7 @@
             "part_number": "MCP73831T-2ACI/OTTR-ND",
             "manufacturer_number": "MCP73831T-2ACI/OT",
             "location": "3H",
-            "count": 73,
+            "count": 71,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -778,7 +814,7 @@
             "part_number": "1965-ESP32-C6-WROOM-1-N4TR-ND",
             "manufacturer_number": "ESP32-C6-WROOM-1-N4",
             "location": "Bin 4",
-            "count": 8,
+            "count": 7,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -886,7 +922,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 978,
+            "count": 974,
             "type": "Resistors"
         },
         "metadata": {
@@ -904,7 +940,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 997,
+            "count": 996,
             "type": "Capacitors"
         },
         "metadata": {
@@ -922,7 +958,7 @@
             "part_number": "1497-1216-2-ND",
             "manufacturer_number": "XZVG54W-1",
             "location": "3Y",
-            "count": 176,
+            "count": 171,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -958,12 +994,12 @@
             "part_number": "609-4050-2-ND",
             "manufacturer_number": "10103594-0001LF",
             "location": "2Z",
-            "count": 108,
+            "count": 99,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
             "price": "0.75",
-            "low_stock": "20",
+            "low_stock": 20,
             "description": "CONN RCPT USB2.0 MICRO B SMD R/A",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/640/10103594-0001LF.jpg",
             "datasheet_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf",
@@ -976,7 +1012,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 170,
+            "count": 165,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1048,7 +1084,7 @@
             "part_number": "1965-ESP32-C3-WROOM-02-H4CT-ND",
             "manufacturer_number": "ESP32-C3-WROOM-02-H4",
             "location": "Bin 4",
-            "count": 26,
+            "count": 23,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1120,7 +1156,7 @@
             "part_number": "399-C0805C102J5GACTUTR-ND",
             "manufacturer_number": "C0805C102J5GACTU",
             "location": "2S",
-            "count": 995,
+            "count": 994,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1138,7 +1174,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 4,
+            "count": 0,
             "type": "Switches"
         },
         "metadata": {
@@ -1156,7 +1192,7 @@
             "part_number": "RNCP0805FTD10K0TR-ND",
             "manufacturer_number": "RNCP0805FTD10K0",
             "location": "2T",
-            "count": 972,
+            "count": 965,
             "type": "Resistors"
         },
         "metadata": {
@@ -1192,7 +1228,7 @@
             "part_number": "ACX1230-ND",
             "manufacturer_number": "132134",
             "location": "2L",
-            "count": 27,
+            "count": 26,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1210,7 +1246,7 @@
             "part_number": "672-NEO-M9N-00BTR-ND",
             "manufacturer_number": "NEO-M9N-00B",
             "location": "3D",
-            "count": 4,
+            "count": 2,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1228,7 +1264,7 @@
             "part_number": "311-1.00KCRTR-ND",
             "manufacturer_number": "RC0805FR-071KL",
             "location": "2R",
-            "count": 1018,
+            "count": 1017,
             "type": "Resistors"
         },
         "metadata": {
@@ -1300,7 +1336,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 860,
+            "count": 841,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1318,7 +1354,7 @@
             "part_number": "664-GTFP08432B1HRTR-ND",
             "manufacturer_number": "GTFP08432B1HR",
             "location": "2J",
-            "count": 19,
+            "count": 17,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1336,7 +1372,7 @@
             "part_number": "RFM95W-868S2-ND",
             "manufacturer_number": "RFM95W-868S2",
             "location": "Bin 4",
-            "count": 16,
+            "count": 15,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1426,7 +1462,7 @@
             "part_number": "P2.2KDATR-ND",
             "manufacturer_number": "ERA-6AEB222V",
             "location": "2G",
-            "count": 57,
+            "count": 55,
             "type": "Resistors"
         },
         "metadata": {
@@ -1462,7 +1498,7 @@
             "part_number": "609-5379-2-ND",
             "manufacturer_number": "10118192-0002LF",
             "location": "2E",
-            "count": 36,
+            "count": 35,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1516,7 +1552,7 @@
             "part_number": "553-2582-2-ND",
             "manufacturer_number": "W3011",
             "location": "2B",
-            "count": 16,
+            "count": 14,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1552,7 +1588,7 @@
             "part_number": "MBR120LSFT1GOSTR-ND",
             "manufacturer_number": "MBR120LSFT1G",
             "location": "1Y",
-            "count": 121,
+            "count": 119,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -1786,7 +1822,7 @@
             "part_number": "311-10.0CRTR-ND",
             "manufacturer_number": "RC0805FR-0710RL",
             "location": "1K",
-            "count": 1507,
+            "count": 1506,
             "type": "Resistors"
         },
         "metadata": {
@@ -1804,7 +1840,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1822,
+            "count": 1816,
             "type": "Resistors"
         },
         "metadata": {
@@ -2038,7 +2074,7 @@
             "part_number": "ATSAMD21G18A-AU-ND",
             "manufacturer_number": "ATSAMD21G18A-AU",
             "location": "Bin 4",
-            "count": 43,
+            "count": 42,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
