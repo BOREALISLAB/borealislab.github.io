@@ -1,6 +1,24 @@
 [
     {
         "part_info": {
+            "part_number": "865-MB85RC256VPNF-G-AMERE2TR-ND",
+            "manufacturer_number": "MB85RC256VPNF-G-AMERE2",
+            "location": "3P",
+            "count": 25,
+            "type": "Integrated Circuits (ICs)"
+        },
+        "metadata": {
+            "price": 6.38,
+            "low_stock": 5,
+            "description": "256kbit FRAM",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6310/865%7EFPT-8P-M02%7ENF%7E8.jpg",
+            "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8892/MB85RC256VPNF-G-AME2.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/ramxeed/MB85RC256VPNF-G-AMERE2/25609752",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
             "part_number": "145-LP2-115-6MM-ND",
             "manufacturer_number": "LP2-115-6MM",
             "location": "3O",
