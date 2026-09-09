@@ -1,6 +1,42 @@
 [
     {
         "part_info": {
+            "part_number": "223-1622-2-ND",
+            "manufacturer_number": "MS561101BA03-50",
+            "location": "3R",
+            "count": 5,
+            "type": "Sensors, Transducers"
+        },
+        "metadata": {
+            "price": "11.56",
+            "low_stock": "N/A",
+            "description": "SENSOR 17.4PSIA 24BIT",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1197/MFG_MS561101BA03-50.JPG",
+            "datasheet_url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=MS561101BA03-50",
+            "product_url": "https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS561101BA03-50/5277445",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "2223-UJ20-C-H-G-SMT-1-P16-TR-ND",
+            "manufacturer_number": "UJ20-C-H-G-SMT-1-P16-TR",
+            "location": "3Q",
+            "count": 100,
+            "type": "Connectors, Interconnects"
+        },
+        "metadata": {
+            "price": 0.52,
+            "low_stock": 10,
+            "description": "CONN RCPT USB 2.0 TYPE C SMD RA",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6361/MFG_UJ20-C-H-G-SMT-1-P16-TR.jpg",
+            "datasheet_url": "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-1-p16-tr.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-1-P16-TR/24818576",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
             "part_number": "865-MB85RC256VPNF-G-AMERE2TR-ND",
             "manufacturer_number": "MB85RC256VPNF-G-AMERE2",
             "location": "3P",
@@ -418,7 +454,7 @@
             "part_number": "490-GRM21BR60G107ME11KTR-ND",
             "manufacturer_number": "GRM21BR60G107ME11K",
             "location": "Bin 2",
-            "count": 1,
+            "count": 0,
             "type": "Capacitors"
         },
         "metadata": {
@@ -940,7 +976,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 974,
+            "count": 967,
             "type": "Resistors"
         },
         "metadata": {
@@ -958,7 +994,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 996,
+            "count": 994,
             "type": "Capacitors"
         },
         "metadata": {
@@ -976,7 +1012,7 @@
             "part_number": "1497-1216-2-ND",
             "manufacturer_number": "XZVG54W-1",
             "location": "3Y",
-            "count": 171,
+            "count": 170,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -994,7 +1030,7 @@
             "part_number": "1497-1170-2-ND",
             "manufacturer_number": "XZMDK54W-1",
             "location": "3Z",
-            "count": 569,
+            "count": 568,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -1354,7 +1390,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 841,
+            "count": 835,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1444,7 +1480,7 @@
             "part_number": "311-1103-2-ND",
             "manufacturer_number": "CC0805JRNPO9BN220",
             "location": "2I",
-            "count": 657,
+            "count": 654,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1480,7 +1516,7 @@
             "part_number": "P2.2KDATR-ND",
             "manufacturer_number": "ERA-6AEB222V",
             "location": "2G",
-            "count": 55,
+            "count": 53,
             "type": "Resistors"
         },
         "metadata": {
@@ -1606,7 +1642,7 @@
             "part_number": "MBR120LSFT1GOSTR-ND",
             "manufacturer_number": "MBR120LSFT1G",
             "location": "1Y",
-            "count": 119,
+            "count": 118,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -1696,7 +1732,7 @@
             "part_number": "311-10KARTR-ND",
             "manufacturer_number": "RC0805JR-0710KL",
             "location": "1T",
-            "count": 142,
+            "count": 137,
             "type": "Resistors"
         },
         "metadata": {
@@ -1840,7 +1876,7 @@
             "part_number": "311-10.0CRTR-ND",
             "manufacturer_number": "RC0805FR-0710RL",
             "location": "1K",
-            "count": 1506,
+            "count": 1494,
             "type": "Resistors"
         },
         "metadata": {
@@ -1858,7 +1894,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1816,
+            "count": 1814,
             "type": "Resistors"
         },
         "metadata": {
