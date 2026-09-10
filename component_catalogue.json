@@ -814,7 +814,7 @@
             "part_number": "141-TL3301NF160QG-KRTR-ND",
             "manufacturer_number": "TL3301NF160QG-KR",
             "location": "3J",
-            "count": 90,
+            "count": 87,
             "type": "Switches"
         },
         "metadata": {
@@ -832,7 +832,7 @@
             "part_number": "535-11898-2-ND",
             "manufacturer_number": "ABS07-32.768KHZ-6-T",
             "location": "3I",
-            "count": 42,
+            "count": 41,
             "type": "Crystals, Oscillators, Resonators"
         },
         "metadata": {
@@ -1066,7 +1066,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 165,
+            "count": 164,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1426,7 +1426,7 @@
             "part_number": "RFM95W-868S2-ND",
             "manufacturer_number": "RFM95W-868S2",
             "location": "Bin 4",
-            "count": 15,
+            "count": 14,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -2128,7 +2128,7 @@
             "part_number": "ATSAMD21G18A-AU-ND",
             "manufacturer_number": "ATSAMD21G18A-AU",
             "location": "Bin 4",
-            "count": 42,
+            "count": 41,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
