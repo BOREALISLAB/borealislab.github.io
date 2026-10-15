@@ -1,10 +1,82 @@
 [
     {
         "part_info": {
+            "part_number": "490-GRM31CR60J227ME11KTR-ND",
+            "manufacturer_number": "GRM31CR60J227ME11K",
+            "location": "3V",
+            "count": 8,
+            "type": "Capacitors"
+        },
+        "metadata": {
+            "price": 1.14,
+            "low_stock": 5,
+            "description": "CAP CER 220UF 6.3V X5R 1206",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5447/490-Ceramic-Capacitor-Tan-Field.jpg",
+            "datasheet_url": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CR60J227ME11K/10695702",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "668-SMTB-0927-TW-RTR-ND",
+            "manufacturer_number": "SMTB-0927-TW-R",
+            "location": "3U",
+            "count": 19,
+            "type": "Audio Products"
+        },
+        "metadata": {
+            "price": "1.7",
+            "low_stock": 5,
+            "description": "BUZZER MAGNETIC 3V 9.2MM SMD",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1044/MFG_SMTB-0927-TW-R.jpg",
+            "datasheet_url": "https://puiaudio.com/file/specs-SMTB-0927-TW-R.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/pui-audio-inc/SMTB-0927-TW-R/13165907",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "2N7002K-7DITR-ND",
+            "manufacturer_number": "2N7002K-7",
+            "location": "3T",
+            "count": 99,
+            "type": "Discrete Semiconductor Products"
+        },
+        "metadata": {
+            "price": 0.22,
+            "low_stock": 5,
+            "description": "MOSFET N-CH 60V 380MA SOT23-3",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4806/31%7ESOT23-3%7EF%2CN%2CSA%7E3.JPG",
+            "datasheet_url": "https://www.diodes.com/assets/Datasheets/2N7002K.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/diodes-incorporated/2N7002K-7/1934378",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
+            "part_number": "497-17720-ND",
+            "manufacturer_number": "STM32H743VIT6",
+            "location": "3S",
+            "count": 3,
+            "type": "Integrated Circuits (ICs)"
+        },
+        "metadata": {
+            "price": 16.67,
+            "low_stock": 2,
+            "description": "IC MCU 32BIT 2MB FLASH 100LQFP",
+            "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6295/497%7E100LQFP-1.6-14X14%7E%7E100.jpg",
+            "datasheet_url": "https://www.st.com/resource/en/datasheet/stm32h743bi.pdf",
+            "product_url": "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H743VIT6/7809237",
+            "in_use": "Available"
+        }
+    },
+    {
+        "part_info": {
             "part_number": "223-1622-2-ND",
             "manufacturer_number": "MS561101BA03-50",
             "location": "3R",
-            "count": 5,
+            "count": 3,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -22,7 +94,7 @@
             "part_number": "2223-UJ20-C-H-G-SMT-1-P16-TR-ND",
             "manufacturer_number": "UJ20-C-H-G-SMT-1-P16-TR",
             "location": "3Q",
-            "count": 100,
+            "count": 99,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -40,7 +112,7 @@
             "part_number": "865-MB85RC256VPNF-G-AMERE2TR-ND",
             "manufacturer_number": "MB85RC256VPNF-G-AMERE2",
             "location": "3P",
-            "count": 24,
+            "count": 23,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -76,7 +148,7 @@
             "part_number": "450-1657-ND",
             "manufacturer_number": "1825027-8",
             "location": "Bin 9",
-            "count": 250,
+            "count": 244,
             "type": "Switches"
         },
         "metadata": {
@@ -94,7 +166,7 @@
             "part_number": "490-8354-2-ND",
             "manufacturer_number": "GRM32EC81A476KE19L",
             "location": "3N",
-            "count": 100,
+            "count": 99,
             "type": "Capacitors"
         },
         "metadata": {
@@ -256,7 +328,7 @@
             "part_number": "5272-XL1509-5.0-EVTR-ND",
             "manufacturer_number": "XL1509-5.0-EV",
             "location": "Bin 4",
-            "count": 5,
+            "count": 4,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -453,12 +525,12 @@
         "part_info": {
             "part_number": "490-GRM21BR60G107ME11KTR-ND",
             "manufacturer_number": "GRM21BR60G107ME11K",
-            "location": "Bin 2",
-            "count": 0,
+            "location": "1P",
+            "count": 500,
             "type": "Capacitors"
         },
         "metadata": {
-            "price": 0.55,
+            "price": "0.55",
             "low_stock": 1,
             "description": "CAP CER 100UF 4V X5R 0805",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5447/490-Ceramic-Capacitor-Tan-Field.jpg",
@@ -670,7 +742,7 @@
             "part_number": "490-BLM21PG601SN1DTR-ND",
             "manufacturer_number": "BLM21PG601SN1D",
             "location": "Bin 10",
-            "count": 250,
+            "count": 245,
             "type": "Filters"
         },
         "metadata": {
@@ -850,7 +922,7 @@
             "part_number": "MCP73831T-2ACI/OTTR-ND",
             "manufacturer_number": "MCP73831T-2ACI/OT",
             "location": "3H",
-            "count": 71,
+            "count": 70,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -940,7 +1012,7 @@
             "part_number": "SAM8856-ND",
             "manufacturer_number": "SMA-J-P-H-RA-TH1",
             "location": "3C",
-            "count": 20,
+            "count": 19,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -958,7 +1030,7 @@
             "part_number": "497-LSM6DSO32TR-ND",
             "manufacturer_number": "LSM6DSO32TR",
             "location": "3A",
-            "count": 22,
+            "count": 46,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -976,7 +1048,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 967,
+            "count": 957,
             "type": "Resistors"
         },
         "metadata": {
@@ -994,7 +1066,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 994,
+            "count": 993,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1030,7 +1102,7 @@
             "part_number": "1497-1170-2-ND",
             "manufacturer_number": "XZMDK54W-1",
             "location": "3Z",
-            "count": 568,
+            "count": 565,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -1048,7 +1120,7 @@
             "part_number": "609-4050-2-ND",
             "manufacturer_number": "10103594-0001LF",
             "location": "2Z",
-            "count": 99,
+            "count": 96,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1066,7 +1138,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 164,
+            "count": 162,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1138,7 +1210,7 @@
             "part_number": "1965-ESP32-C3-WROOM-02-H4CT-ND",
             "manufacturer_number": "ESP32-C3-WROOM-02-H4",
             "location": "Bin 4",
-            "count": 23,
+            "count": 22,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1228,7 +1300,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 0,
+            "count": 195,
             "type": "Switches"
         },
         "metadata": {
@@ -1282,7 +1354,7 @@
             "part_number": "ACX1230-ND",
             "manufacturer_number": "132134",
             "location": "2L",
-            "count": 26,
+            "count": 25,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1390,7 +1462,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 835,
+            "count": 811,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1426,7 +1498,7 @@
             "part_number": "RFM95W-868S2-ND",
             "manufacturer_number": "RFM95W-868S2",
             "location": "Bin 4",
-            "count": 14,
+            "count": 13,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1444,7 +1516,7 @@
             "part_number": "296-20498-ND",
             "manufacturer_number": "PTN04050CAD",
             "location": "Bin 10",
-            "count": 15,
+            "count": 14,
             "type": "Power Supplies - Board Mount"
         },
         "metadata": {
@@ -1480,7 +1552,7 @@
             "part_number": "311-1103-2-ND",
             "manufacturer_number": "CC0805JRNPO9BN220",
             "location": "2I",
-            "count": 654,
+            "count": 652,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1803,13 +1875,13 @@
         "part_info": {
             "part_number": "490-GRM21BR60J107ME15KTR-ND",
             "manufacturer_number": "GRM21BR60J107ME15K",
-            "location": "1P",
+            "location": "Bin 2",
             "count": 0,
             "type": "Capacitors"
         },
         "metadata": {
-            "price": 1.12,
-            "low_stock": "50",
+            "price": "1.12",
+            "low_stock": 50,
             "description": "CAP CER 100UF 6.3V X5R 0805",
             "photo_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5447/490-Ceramic-Capacitor-Tan-Field.jpg",
             "datasheet_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR60J107ME15-01A.pdf",
@@ -1894,7 +1966,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1814,
+            "count": 1810,
             "type": "Resistors"
         },
         "metadata": {
@@ -1966,7 +2038,7 @@
             "part_number": "541-4.70KSTR-ND",
             "manufacturer_number": "CRCW06034K70FKEAHP",
             "location": "1F",
-            "count": 13,
+            "count": 11,
             "type": "Resistors"
         },
         "metadata": {
@@ -1984,7 +2056,7 @@
             "part_number": "490-3335-1-ND",
             "manufacturer_number": "GRM21BR61E475KA12L",
             "location": "1E",
-            "count": 907,
+            "count": 905,
             "type": "Capacitors"
         },
         "metadata": {
@@ -2020,7 +2092,7 @@
             "part_number": "587-2485-1-ND",
             "manufacturer_number": "BKP2125HS331-T",
             "location": "1C",
-            "count": 9,
+            "count": 7,
             "type": "Filters"
         },
         "metadata": {
@@ -2128,7 +2200,7 @@
             "part_number": "ATSAMD21G18A-AU-ND",
             "manufacturer_number": "ATSAMD21G18A-AU",
             "location": "Bin 4",
-            "count": 41,
+            "count": 40,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
