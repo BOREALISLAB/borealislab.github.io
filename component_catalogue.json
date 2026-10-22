@@ -22,7 +22,7 @@
             "part_number": "668-SMTB-0927-TW-RTR-ND",
             "manufacturer_number": "SMTB-0927-TW-R",
             "location": "3U",
-            "count": 19,
+            "count": 18,
             "type": "Audio Products"
         },
         "metadata": {
@@ -40,7 +40,7 @@
             "part_number": "2N7002K-7DITR-ND",
             "manufacturer_number": "2N7002K-7",
             "location": "3T",
-            "count": 99,
+            "count": 98,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -76,7 +76,7 @@
             "part_number": "223-1622-2-ND",
             "manufacturer_number": "MS561101BA03-50",
             "location": "3R",
-            "count": 3,
+            "count": 2,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -688,7 +688,7 @@
             "part_number": "478-KGM21BCG1H2R2CTTR-ND",
             "manufacturer_number": "KGM21BCG1H2R2CT",
             "location": "3M",
-            "count": 486,
+            "count": 485,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1048,7 +1048,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 957,
+            "count": 956,
             "type": "Resistors"
         },
         "metadata": {
@@ -1066,7 +1066,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 993,
+            "count": 991,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1084,7 +1084,7 @@
             "part_number": "1497-1216-2-ND",
             "manufacturer_number": "XZVG54W-1",
             "location": "3Y",
-            "count": 170,
+            "count": 169,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -1102,7 +1102,7 @@
             "part_number": "1497-1170-2-ND",
             "manufacturer_number": "XZMDK54W-1",
             "location": "3Z",
-            "count": 565,
+            "count": 561,
             "type": "Optoelectronics"
         },
         "metadata": {
@@ -1138,7 +1138,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 162,
+            "count": 161,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1300,7 +1300,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 195,
+            "count": 192,
             "type": "Switches"
         },
         "metadata": {
@@ -1318,7 +1318,7 @@
             "part_number": "RNCP0805FTD10K0TR-ND",
             "manufacturer_number": "RNCP0805FTD10K0",
             "location": "2T",
-            "count": 965,
+            "count": 963,
             "type": "Resistors"
         },
         "metadata": {
@@ -1390,7 +1390,7 @@
             "part_number": "311-1.00KCRTR-ND",
             "manufacturer_number": "RC0805FR-071KL",
             "location": "2R",
-            "count": 1017,
+            "count": 1014,
             "type": "Resistors"
         },
         "metadata": {
@@ -1462,7 +1462,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 811,
+            "count": 799,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1552,7 +1552,7 @@
             "part_number": "311-1103-2-ND",
             "manufacturer_number": "CC0805JRNPO9BN220",
             "location": "2I",
-            "count": 652,
+            "count": 650,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1588,7 +1588,7 @@
             "part_number": "P2.2KDATR-ND",
             "manufacturer_number": "ERA-6AEB222V",
             "location": "2G",
-            "count": 53,
+            "count": 51,
             "type": "Resistors"
         },
         "metadata": {
@@ -1678,7 +1678,7 @@
             "part_number": "553-2582-2-ND",
             "manufacturer_number": "W3011",
             "location": "2B",
-            "count": 14,
+            "count": 13,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1714,7 +1714,7 @@
             "part_number": "MBR120LSFT1GOSTR-ND",
             "manufacturer_number": "MBR120LSFT1G",
             "location": "1Y",
-            "count": 118,
+            "count": 117,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -1966,7 +1966,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1810,
+            "count": 1809,
             "type": "Resistors"
         },
         "metadata": {
