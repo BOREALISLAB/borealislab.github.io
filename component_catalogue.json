@@ -4,7 +4,7 @@
             "part_number": "490-GRM31CR60J227ME11KTR-ND",
             "manufacturer_number": "GRM31CR60J227ME11K",
             "location": "3V",
-            "count": 7,
+            "count": 6,
             "type": "Capacitors"
         },
         "metadata": {
@@ -688,7 +688,7 @@
             "part_number": "478-KGM21BCG1H2R2CTTR-ND",
             "manufacturer_number": "KGM21BCG1H2R2CT",
             "location": "3M",
-            "count": 484,
+            "count": 483,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1048,7 +1048,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 954,
+            "count": 952,
             "type": "Resistors"
         },
         "metadata": {
@@ -1462,7 +1462,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 798,
+            "count": 787,
             "type": "Capacitors"
         },
         "metadata": {
@@ -2038,7 +2038,7 @@
             "part_number": "541-4.70KSTR-ND",
             "manufacturer_number": "CRCW06034K70FKEAHP",
             "location": "1F",
-            "count": 10,
+            "count": 9,
             "type": "Resistors"
         },
         "metadata": {
@@ -2056,7 +2056,7 @@
             "part_number": "490-3335-1-ND",
             "manufacturer_number": "GRM21BR61E475KA12L",
             "location": "1E",
-            "count": 904,
+            "count": 903,
             "type": "Capacitors"
         },
         "metadata": {
