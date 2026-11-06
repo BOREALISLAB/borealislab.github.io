@@ -22,7 +22,7 @@
             "part_number": "668-SMTB-0927-TW-RTR-ND",
             "manufacturer_number": "SMTB-0927-TW-R",
             "location": "3U",
-            "count": 18,
+            "count": 17,
             "type": "Audio Products"
         },
         "metadata": {
@@ -40,7 +40,7 @@
             "part_number": "2N7002K-7DITR-ND",
             "manufacturer_number": "2N7002K-7",
             "location": "3T",
-            "count": 97,
+            "count": 96,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -76,7 +76,7 @@
             "part_number": "223-1622-2-ND",
             "manufacturer_number": "MS561101BA03-50",
             "location": "3R",
-            "count": 1,
+            "count": 0,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -112,7 +112,7 @@
             "part_number": "865-MB85RC256VPNF-G-AMERE2TR-ND",
             "manufacturer_number": "MB85RC256VPNF-G-AMERE2",
             "location": "3P",
-            "count": 23,
+            "count": 0,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1030,7 +1030,7 @@
             "part_number": "497-LSM6DSO32TR-ND",
             "manufacturer_number": "LSM6DSO32TR",
             "location": "3A",
-            "count": 45,
+            "count": 44,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -1138,7 +1138,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 160,
+            "count": 159,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1300,7 +1300,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 186,
+            "count": 66,
             "type": "Switches"
         },
         "metadata": {
@@ -1354,7 +1354,7 @@
             "part_number": "ACX1230-ND",
             "manufacturer_number": "132134",
             "location": "2L",
-            "count": 25,
+            "count": 24,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1408,7 +1408,7 @@
             "part_number": "672-NEO-M9V-20BTR-ND",
             "manufacturer_number": "NEO-M9V-20B",
             "location": "2N",
-            "count": 4,
+            "count": 3,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1678,7 +1678,7 @@
             "part_number": "553-2582-2-ND",
             "manufacturer_number": "W3011",
             "location": "2B",
-            "count": 12,
+            "count": 11,
             "type": "RF and Wireless"
         },
         "metadata": {
