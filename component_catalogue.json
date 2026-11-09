@@ -688,7 +688,7 @@
             "part_number": "478-KGM21BCG1H2R2CTTR-ND",
             "manufacturer_number": "KGM21BCG1H2R2CT",
             "location": "3M",
-            "count": 483,
+            "count": 482,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1048,7 +1048,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 952,
+            "count": 951,
             "type": "Resistors"
         },
         "metadata": {
@@ -1066,7 +1066,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 986,
+            "count": 983,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1120,7 +1120,7 @@
             "part_number": "609-4050-2-ND",
             "manufacturer_number": "10103594-0001LF",
             "location": "2Z",
-            "count": 95,
+            "count": 60,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1138,7 +1138,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 159,
+            "count": 158,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1462,7 +1462,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 787,
+            "count": 783,
             "type": "Capacitors"
         },
         "metadata": {
