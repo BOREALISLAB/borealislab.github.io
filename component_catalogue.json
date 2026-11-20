@@ -4,7 +4,7 @@
             "part_number": "490-GRM31CR60J227ME11KTR-ND",
             "manufacturer_number": "GRM31CR60J227ME11K",
             "location": "3V",
-            "count": 6,
+            "count": 4,
             "type": "Capacitors"
         },
         "metadata": {
@@ -22,7 +22,7 @@
             "part_number": "668-SMTB-0927-TW-RTR-ND",
             "manufacturer_number": "SMTB-0927-TW-R",
             "location": "3U",
-            "count": 17,
+            "count": 16,
             "type": "Audio Products"
         },
         "metadata": {
@@ -40,7 +40,7 @@
             "part_number": "2N7002K-7DITR-ND",
             "manufacturer_number": "2N7002K-7",
             "location": "3T",
-            "count": 96,
+            "count": 95,
             "type": "Discrete Semiconductor Products"
         },
         "metadata": {
@@ -58,7 +58,7 @@
             "part_number": "497-17720-ND",
             "manufacturer_number": "STM32H743VIT6",
             "location": "3S",
-            "count": 1,
+            "count": 0,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -688,7 +688,7 @@
             "part_number": "478-KGM21BCG1H2R2CTTR-ND",
             "manufacturer_number": "KGM21BCG1H2R2CT",
             "location": "3M",
-            "count": 482,
+            "count": 480,
             "type": "Capacitors"
         },
         "metadata": {
@@ -742,7 +742,7 @@
             "part_number": "490-BLM21PG601SN1DTR-ND",
             "manufacturer_number": "BLM21PG601SN1D",
             "location": "Bin 10",
-            "count": 245,
+            "count": 240,
             "type": "Filters"
         },
         "metadata": {
@@ -1030,7 +1030,7 @@
             "part_number": "497-LSM6DSO32TR-ND",
             "manufacturer_number": "LSM6DSO32TR",
             "location": "3A",
-            "count": 44,
+            "count": 42,
             "type": "Sensors, Transducers"
         },
         "metadata": {
@@ -1048,7 +1048,7 @@
             "part_number": "311-100KCRTR-ND",
             "manufacturer_number": "RC0805FR-07100KL",
             "location": "3W",
-            "count": 951,
+            "count": 846,
             "type": "Resistors"
         },
         "metadata": {
@@ -1066,7 +1066,7 @@
             "part_number": "311-1140-2-ND",
             "manufacturer_number": "CC0805KRX7R9BB104",
             "location": "3X",
-            "count": 983,
+            "count": 981,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1138,7 +1138,7 @@
             "part_number": "296-28778-2-ND",
             "manufacturer_number": "TLV1117LV33DCYR",
             "location": "3B",
-            "count": 158,
+            "count": 157,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
@@ -1300,7 +1300,7 @@
             "part_number": "CKN10504CT-ND",
             "manufacturer_number": "PTS810SJG250SMTR LFS",
             "location": "1Z",
-            "count": 66,
+            "count": 53,
             "type": "Switches"
         },
         "metadata": {
@@ -1354,7 +1354,7 @@
             "part_number": "ACX1230-ND",
             "manufacturer_number": "132134",
             "location": "2L",
-            "count": 24,
+            "count": 22,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1372,7 +1372,7 @@
             "part_number": "672-NEO-M9N-00BTR-ND",
             "manufacturer_number": "NEO-M9N-00B",
             "location": "3D",
-            "count": 1,
+            "count": 0,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1390,7 +1390,7 @@
             "part_number": "311-1.00KCRTR-ND",
             "manufacturer_number": "RC0805FR-071KL",
             "location": "2R",
-            "count": 1014,
+            "count": 977,
             "type": "Resistors"
         },
         "metadata": {
@@ -1462,7 +1462,7 @@
             "part_number": "311-3417-2-ND",
             "manufacturer_number": "CC0805KKX5R5BB105",
             "location": "2K",
-            "count": 783,
+            "count": 771,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1480,7 +1480,7 @@
             "part_number": "664-GTFP08432B1HRTR-ND",
             "manufacturer_number": "GTFP08432B1HR",
             "location": "2J",
-            "count": 16,
+            "count": 15,
             "type": "Connectors, Interconnects"
         },
         "metadata": {
@@ -1534,7 +1534,7 @@
             "part_number": "P100BYTR-ND",
             "manufacturer_number": "ERJ-PA3F1000V",
             "location": "1M",
-            "count": 38,
+            "count": 36,
             "type": "Resistors"
         },
         "metadata": {
@@ -1552,7 +1552,7 @@
             "part_number": "311-1103-2-ND",
             "manufacturer_number": "CC0805JRNPO9BN220",
             "location": "2I",
-            "count": 650,
+            "count": 648,
             "type": "Capacitors"
         },
         "metadata": {
@@ -1588,7 +1588,7 @@
             "part_number": "P2.2KDATR-ND",
             "manufacturer_number": "ERA-6AEB222V",
             "location": "2G",
-            "count": 51,
+            "count": 49,
             "type": "Resistors"
         },
         "metadata": {
@@ -1678,7 +1678,7 @@
             "part_number": "553-2582-2-ND",
             "manufacturer_number": "W3011",
             "location": "2B",
-            "count": 11,
+            "count": 8,
             "type": "RF and Wireless"
         },
         "metadata": {
@@ -1804,7 +1804,7 @@
             "part_number": "311-10KARTR-ND",
             "manufacturer_number": "RC0805JR-0710KL",
             "location": "1T",
-            "count": 137,
+            "count": 129,
             "type": "Resistors"
         },
         "metadata": {
@@ -1966,7 +1966,7 @@
             "part_number": "311-100CRTR-ND",
             "manufacturer_number": "RC0805FR-07100RL",
             "location": "1J",
-            "count": 1808,
+            "count": 1807,
             "type": "Resistors"
         },
         "metadata": {
@@ -2038,7 +2038,7 @@
             "part_number": "541-4.70KSTR-ND",
             "manufacturer_number": "CRCW06034K70FKEAHP",
             "location": "1F",
-            "count": 9,
+            "count": 6,
             "type": "Resistors"
         },
         "metadata": {
@@ -2056,7 +2056,7 @@
             "part_number": "490-3335-1-ND",
             "manufacturer_number": "GRM21BR61E475KA12L",
             "location": "1E",
-            "count": 903,
+            "count": 901,
             "type": "Capacitors"
         },
         "metadata": {
@@ -2200,7 +2200,7 @@
             "part_number": "ATSAMD21G18A-AU-ND",
             "manufacturer_number": "ATSAMD21G18A-AU",
             "location": "Bin 4",
-            "count": 38,
+            "count": 36,
             "type": "Integrated Circuits (ICs)"
         },
         "metadata": {
